@@ -1,0 +1,10 @@
+jira-issue-parser:
+  jira-rest-api-issue-uri: https://jira.atlassian.com
+  file-format: json # enter json|xml for parsing issue either in json or xml format
+  date-format-pattern: dd.MM.yyyy HH:mm:ss
+
+logging:
+  level:
+    org:
+      springframework:
+        web: INFO
